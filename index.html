@@ -1,0 +1,678 @@
+<html>
+   <head>
+      <title>Techpanel</title>
+      <link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="styles/css/techpanel.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+      <script src="/scripts/techpanel.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+      <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/fonts/font.css">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" ></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   </head>
+   <body class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light p-0">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Images/Image 4.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Position</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Calender</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Interviewer</a>
+                  </li>
+               </ul>
+               <form class="form-inline my-2 my-lg-0 ml-auto">
+                  <div class="form-group has-search inline my-2 my-lg-0 ml-auto">
+                     <span class="fa fa-search form-control-feedback"></span><input type="text" class="form-control search-bar" placeholder="coimbatore" autocomplete="on"/>
+                     <div class="rounded-circle profile_name" >BS </div>
+                  </div>
+               </form>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="header">
+         <h2>Profile</h2>
+      </div>
+      <div class="container-fluid">
+      <div class="row p-0">
+         <div class="col-lg-3">
+            <div class="profile_background">
+               <i class="fa fa-camera"></i>
+               <img class="mx-auto d-block rounded-circle display_picture" src="Images/profile.jpg">
+            </div>
+            <div class="gradient">
+               <p>Open to take Interviews</p>
+            </div>
+            <div class="profile_details text-center pt-4 bg-white pb-2">
+               <h1 class="pt-3">Thomas Knoll</h1>
+               <h6>Product owner<br>San Francisco, California, United States</h6>
+               <div class="row justify-content-center">
+                  <div class="d-flex">
+                     <div class="m-3 mt-1 mb-0">
+                        <p class="mb-0">Interviewing rate</p>
+                        <h3>$100.00<sub>/hr</sub></h3>
+                     </div>
+                     <div  class="m-3 mt-1 mb-0">
+                        <p class="mb-0">Interviewing rate</p>
+                        <h3>100</h3>
+                     </div>
+                  </div>
+               </div>
+               <div class="btn-group d-inline">
+                  <button class="manage-btn">Manage</button>
+                  <button class="share-btn">Share</button> <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+               </div>
+               <hr>
+               <div class="d-flex m-3">
+                  <div class="view_count">
+                     <h4>12</h4>
+                  </div>
+                  <div class="view_text ml-2">
+                     <h6>People viewed your profile</h6>
+                     <div class="dropdown">
+                        <p class=" dropdown-toggle" data-toggle="dropdown">
+                           This Week
+                        </p>
+                        <div class="dropdown-menu">
+                           <a class="dropdown-item" href="#">This Week</a>
+                           <a class="dropdown-item" href="#">This Month</a>
+                           <a class="dropdown-item" href="#">This Year</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="experience_section">
+               <div class="card">
+                  <div class="card_header">
+                     <div class="row">
+                        <div class="col-md-10">
+                           <h6><span><img src="assets/Images/lamp .png"  /></span> Skill & Interviews</h6>
+                        </div>
+                        <div class="col-md-1 text-center px-0 pt-3">
+                           <a data-toggle="modal" data-target="#myModal"> <i class="fa fa-plus" aria-hidden="true"></i> Add</a>
+                           <div class="modal fade mt-5" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                 <div class="modal-content">
+                                    <div class="modal-header">
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                       <span aria-hidden="true">&times;</span>
+                                       </button>
+                                       <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                       Heyy Bel
+                                    </div>
+                                    <div class="modal-footer">
+                                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                       <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-1 pt-3">
+                           <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="table-responsive">
+                        <table class="table">
+                           <thead>
+                              <tr>
+                                 <th scope="col">Skills / Interviews</th>
+                                 <th scope="col">Interview Rating</th>
+                                 <th scope="col">Self Rating</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                                 <td>User Experience Design (3 Interviews)</td>
+                                 <td class=" px-5"><span class="level_indicator Intermediate"></span></td>
+                                 <td class="px-5"><span class="level_indicator beginner"></span></td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" class="p-0">
+                                    <div id="collapseOne" class="collapse in">
+                                       <div class="container-fluid">
+                                          <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">                                               
+                                                     <div class=" job-cards">
+                                                        <h5>Head of User Experience</h5>
+                                                        <p>Stealthmode startup</p>
+                                                        <p class="days">3 days ago</p>
+                                                     </div>
+                                                   <div class=" job-cards">
+                                                      <h5>Head of User Experience</h5>
+                                                      <p>Stealthmode startup</p>
+                                                      <p class="days">3 days ago</p>
+                                                   </div>
+                                                   <div class=" job-cards">
+                                                      <h5>Head of User Experience</h5>
+                                                      <p>Stealthmode startup</p>
+                                                      <p class="days">3 days ago</p>
+                                                   </div>
+                                                   <div class=" job-cards">
+                                                      <h5>Head of User Experience</h5>
+                                                      <p>Stealthmode startup</p>
+                                                      <p class="days">3 days ago</p>
+                                                   </div>
+                                                   <div class=" job-cards">
+                                                      <h5>Head of User Experience</h5>
+                                                      <p>Stealthmode startup</p>
+                                                      <p class="days">3 days ago</p>
+                                                   </div>
+                                                   <div class=" job-cards">
+                                                      <h5>Head of User Experience</h5>
+                                                      <p>Stealthmode startup</p>
+                                                      <p class="days">3 days ago</p>
+                                                   </div>
+                                                   <div class=" job-cards">
+                                                      <h5>Head of User Experience</h5>
+                                                      <p>Stealthmode startup</p>
+                                                      <p class="days">3 days ago</p>
+                                                   </div>
+                                                   </div>
+                                                 
+                                    </div>
+                                 </div>
+                                 </td>
+                              </tr>
+                              <tr class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                 <td>Prototyping (1 Interview)</td>
+                                 <td class=" px-5"><span class="level_indicator Intermediate"></span></td>
+                                 <td class="px-5"><span class="level_indicator beginner"></span></td>
+                              </tr>
+                              <tr class="hide-table-padding">
+                                 <td colspan="4" class="p-0">
+                                    <div id="collapseTwo" class="collapse in ">
+                                       dcccccccccccc
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                 <td>Prototyping (1 Interview)</td>
+                                 <td class=" px-5"><span class="level_indicator Intermediate"></span></td>
+                                 <td class="px-5"><span class="level_indicator expert_bar"></span></td>
+                              </tr>
+                              <tr class="hide-table-padding">
+                                 <td colspan="4" class="p-0">
+                                    <div id="collapseThree" class="collapse in ">
+                                       dcccccccccccc
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                                 <td>Prototyping (1 Interview)</td>
+                                 <td class=" px-5"><span class="level_indicator unassessed"></span></td>
+                                 <td class="px-5"><span class="level_indicator unassessed"></span></td>
+                              </tr>
+                              <tr class="hide-table-padding">
+                                 <td colspan="4" class="p-0">
+                                    <div id="collapseFour" class="collapse in ">
+                                       dcccccccccccc
+                                    </div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <div class="d-flex">
+                           <p class="mr-3 beginner_color"><span class="level_indicator beginner"></span>Beginner</p>
+                           <p class="mr-3 Inter_color"><span class="level_indicator Intermediate"></span>Intermediary</p>
+                           <p class="mr-3 expert_color"><span class="level_indicator expert_bar"></span> Expert</p>
+                           <p class="mr-3 unassed_color"><span class="level_indicator unassessed"></span> Unassessed</p>
+                           <i class="fas fa-pen"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="second_card mt-3">
+                  <div class="card_header">
+                     <div class="row">
+                        <div class="col-md-11">
+                           <h6><span><img src="assets/Images/suitcase.png"  /> </span>Experience</h6>
+                        </div>
+                        <div class="col-md-1 text-center px-0 pt-3">
+                           <a data-toggle="modal" data-target="#Experience"> <i class="fa fa-plus" aria-hidden="true"></i> Add</a>
+                        </div>
+                        <div class="modal fade" id="Experience" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header bg-light py-3">
+                                    <h6><span><img class="mr-2" src="assets/Images/suitcase.png" /> </span> Experience </h6>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                 </div>
+                                 <div class="modal-body">
+                                    <div class="select-wrap">
+                                       <label>Color</label>
+                                       <select name="color" style="width: 100%;">
+                                          <option value="">Google Inc</option>
+                                          <option value="yellow">Yellow</option>
+                                          <option value="red">Red</option>
+                                          <option value="green">Green</option>
+                                       </select>
+                                    </div>
+                                    <form class="form-floating">
+                                       <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com">
+                                       <label for="floatingInputInvalid">Invalid input</label>
+                                    </form>
+                                 </div>
+                                 <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="row">
+                        <div class="col-md-9">
+                           <h4>User Experience Manager<span class="current">I work here</span></h4>
+                        </div>
+                        <div class="col-md-1"><i class="fa fa-id-card"></i></div>
+                        <div class="col-md-1"><img src="assets/Images/edit (3).png" /></div>
+                        <div class="col-md-1"><img src="assets/Images/delete (1).png"/></div>
+                     </div>
+                     <h6 class="company_name">Google.inc</h6>
+                     <h6 class="details">2019 - Current<br>San Francisco, USA</h6>
+                     <hr>
+                     <div class="row">
+                        <div class="col-md-9">
+                           <h4>Azure Product Developer</h4>
+                        </div>
+                        <div class="col-md-1"><i class="fa fa-id-card"></i></div>
+                        <div class="col-md-1"><img src="assets/Images/edit (3).png" /></div>
+                        <div class="col-md-1"><img src="assets/Images/delete (1).png"/></div>
+                     </div>
+                     <h6 class="company_name">Microsoft Inc</h6>
+                     <h6 class="details">2018 - 2019<br>Redmond Hills, USA</h6>
+                     <hr>
+                     <div class="row">
+                        <div class="col-md-9">
+                           <h4>Software Development Intern</h4>
+                        </div>
+                        <div class="col-md-1"><i class="fa fa-id-card"></i></div>
+                        <div class="col-md-1"><img src="assets/Images/edit (3).png" /></div>
+                        <div class="col-md-1"><img src="assets/Images/delete (1).png"/></div>
+                     </div>
+                     <h6 class="company_name">Cisco</h6>
+                     <h6 class="details">2016 - 2018<br>Texas, USA</h6>
+                  </div>
+               </div>
+               <div class="second_card mt-3">
+                  <div class="card_header">
+                     <div class="row">
+                        <div class="col-md-11">
+                           <h6><span><img src="assets/Images/suitcase.png"  /> </span>Education</h6>
+                        </div>
+                        <div class="col-md-1 text-center px-0 pt-3">
+                           <p><i class="fa fa-plus" aria-hidden="true"></i> Add</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="row">
+                        <div class="col-md-10">
+                           <h4>MBA Technology Management<span class="current">Currently Pursuing</span></h4>
+                        </div>
+                        <div class="col-md-1"><img src="assets/Images/edit (3).png" /></div>
+                        <div class="col-md-1"><img src="assets/Images/delete (1).png"/></div>
+                     </div>
+                     <h6 class="details">2018 - Current<br>Oxford University, United Kingdom (UK)</h6>
+                     <hr>
+                     <div class="row">
+                        <div class="col-md-10">
+                           <h4>B.E. Mechanical Engineering</h4>
+                        </div>
+                        <div class="col-md-1"><img src="assets/Images/edit (3).png" /></div>
+                        <div class="col-md-1"><img src="assets/Images/delete (1).png"/></div>
+                     </div>
+                     <h6 class="details">2014 - 2018<br>Singapore Technical University, Singapore</h6>
+                     <hr>
+                     <div class="row">
+                        <div class="col-md-10">
+                           <h4>St.Andrews High School</h4>
+                        </div>
+                        <div class="col-md-1"><img src="assets/Images/edit (3).png" /></div>
+                        <div class="col-md-1"><img src="assets/Images/delete (1).png"/></div>
+                     </div>
+                     <h6 class="details">2012 - 2014<br>Private School</h6>
+                  </div>
+               </div>
+               <div class="second_card mt-3">
+                  <div class="card_header">
+                     <div class="row">
+                        <div class="col-md-11">
+                           <h6 class="details"><span><img src="assets/Images/Group 471.png"  /></span>Certifications</h6>
+                        </div>
+                        <div class="col-md-1 text-center px-0 pt-3">
+                           <p><i class="fa fa-plus" aria-hidden="true"></i> Add</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="row">
+                        <div class="col-md-10">
+                           <h4>Microsoft Certified Azure Specialist</h4>
+                        </div>
+                        <div class="col-md-1"><img src="assets/Images/edit (3).png" /></div>
+                        <div class="col-md-1"><img src="assets/Images/delete (1).png"/></div>
+                     </div>
+                     <h6 class="details">License Number 3984934<br>Microsoft - Valid Till 2022</h6>
+                     <hr>
+                     <div class="row">
+                        <div class="col-md-10">
+                           <h4>Cloud AWS Architect</h4>
+                        </div>
+                        <div class="col-md-1"><img src="assets/Images/edit (3).png" /></div>
+                        <div class="col-md-1"><img src="assets/Images/delete (1).png"/></div>
+                     </div>
+                     <h6 class="details">License Number 42424234<br>Udemy - Valid Till 2022</h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 bg-white px-0">
+            <section id="tabs">
+               <div class="row">
+                  <div class="col-lg-12 px-0">
+                     <nav>
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                           <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">My Connections</a>
+                           <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">My Requests</a>
+                        </div>
+                     </nav>
+                     <div class="tab-content pb-3 px-3 px-sm-0" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                           <!-- <div class="row bg-light py-0">
+                              <div class="col-lg-8">Top Profiles</div>
+                              <div class="col-lg-4">View All <i class="fa fa-chevron-right"></i></div>
+                              </div> -->
+                           <div class="bg-light mb-4 py-3 px-1">
+                              <div class="row">
+                                 <div class="col-lg-8">Top Profiles <b>(25)</b> </div>
+                                 <div class="col-lg-4"><a data-toggle="modal" data-target="#Topprofiles"> View All <i class="fa fa-chevron-right"></i></a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="modal fade" id="Topprofiles" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                 <div class="modal-content">
+                                    <div class="modal-header bg-light py-3">
+                                       <h6><span><img class="mr-2" src="assets/Images/research (1).png" /> </span> Top Profiles </h6>
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                       <span aria-hidden="true">&times;</span>
+                                       </button>
+                                    </div>
+                                    <div class="modal-body">
+                                       <div class="row">
+                                          <div class="col-md-2 profile_image">
+                                             <img src="assets/Images/pro_pic.jpeg"/>
+                                          </div>
+                                          <div class="col-md-8">
+                                             <h6 class="candidate_name">Helina Williams</h6>
+                                             <h6 class="Expert">Domain Expert</h6>
+                                             <p>San Francisco, California, United States</p>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <img class="imd-fluid mt-2 research_img" src="assets/Images/research (1).png" />
+                                          </div>
+                                       </div>
+                                       <div class="row mt-2">
+                                          <div class="col-md-2 profile_image">
+                                             <img src="assets/Images/pro_pic2.jpeg"/>
+                                          </div>
+                                          <div class="col-md-8">
+                                             <h6 class="candidate_name">Christina</h6>
+                                             <h6 class="Expert">Software Developer</h6>
+                                             <p>India</p>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <img class="imd-fluid mt-2  research_img" src="assets/Images/research (1).png" />
+                                          </div>
+                                       </div>
+                                       <div class="row mt-2">
+                                          <div class="col-md-2 profile_image">
+                                             <img class="imd-fluid" src="assets/Images/pro_pic_3.jpeg"/>
+                                          </div>
+                                          <div class="col-md-8">
+                                             <h6 class="candidate_name">Mohammed Azad</h6>
+                                             <h6 class="Expert">Azure Product Developer</h6>
+                                             <p>Ireland</p>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <img class="imd-fluid mt-2  research_img" src="assets/Images/research (1).png" />
+                                          </div>
+                                       </div>
+                                       <div class="row mt-2">
+                                          <div class="col-md-2 profile_image">
+                                             <img src="assets/Images/profile.jpg"/>
+                                          </div>
+                                          <div class="col-md-8">
+                                             <h6 class="candidate_name">Christina</h6>
+                                             <h6 class="Expert">Software Developer</h6>
+                                             <p>India</p>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <img class="imd-fluid mt-2  research_img" src="assets/Images/research (1).png" />
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                       <button type="button" class="close_button" data-dismiss="modal">CLOSE</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-2 profile_image">
+                                 <img src="assets/Images/pro_pic.jpeg"/>
+                              </div>
+                              <div class="col-md-7">
+                                 <h6 class="candidate_name">Helina Williams</h6>
+                                 <h6 class="Expert">Domain Expert</h6>
+                                 <p>San Francisco, California, United States</p>
+                              </div>
+                              <div class="col-md-3">
+                                 <img class="imd-fluid mt-4 research_img" src="assets/Images/research (1).png" />
+                              </div>
+                           </div>
+                           <div class="row mt-2">
+                              <div class="col-md-2 profile_image">
+                                 <img src="assets/Images/pro_pic2.jpeg"/>
+                              </div>
+                              <div class="col-md-7">
+                                 <h6 class="candidate_name">Christina</h6>
+                                 <h6 class="Expert">Software Developer</h6>
+                                 <p>India</p>
+                              </div>
+                              <div class="col-md-3">
+                                 <img class="imd-fluid mt-4  research_img" src="assets/Images/research (1).png" />
+                              </div>
+                           </div>
+                           <div class="row mt-2">
+                              <div class="col-md-2 profile_image">
+                                 <img class="imd-fluid" src="assets/Images/pro_pic_3.jpeg"/>
+                              </div>
+                              <div class="col-md-7">
+                                 <h6 class="candidate_name">Mohammed Azad</h6>
+                                 <h6 class="Expert">Azure Product Developer</h6>
+                                 <p>Ireland</p>
+                              </div>
+                              <div class="col-md-3">
+                                 <img class="imd-fluid mt-4  research_img" src="assets/Images/research (1).png" />
+                              </div>
+                           </div>
+                           <div class="row mt-2">
+                              <div class="col-md-2 profile_image">
+                                 <img src="assets/Images/profile.jpg"/>
+                              </div>
+                              <div class="col-md-7">
+                                 <h6 class="candidate_name">Christina</h6>
+                                 <h6 class="Expert">Software Developer</h6>
+                                 <p>India</p>
+                              </div>
+                              <div class="col-md-3">
+                                 <img class="imd-fluid mt-4  research_img" src="assets/Images/research (1).png" />
+                              </div>
+                           </div>
+                           <div class="bg-light py-3 px-1">
+                              <div class="row">
+                                 <div class="col-lg-8">Awaiting Response<b>(25)</b></div>
+                                 <div class="col-lg-4"><a data-toggle="modal" data-target="#Awaitingrequest"> View All <i class="fa fa-chevron-right"></i></a>
+                                 </div>
+                              </div>
+                              <div class="modal fade" id="Awaitingrequest" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                 <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                       <div class="modal-header bg-light py-3">
+                                          <h6><span><img class="mr-2" src="assets/Images/research (1).png" /> </span> Awaiting Response </h6>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                          </button>
+                                       </div>
+                                       <div class="modal-body">
+                                          <div class="row">
+                                             <div class="col-md-2 profile_image">
+                                                <img src="assets/Images/pro_pic.jpeg"/>
+                                             </div>
+                                             <div class="col-md-7">
+                                                <h6 class="candidate_name">Helina Williams</h6>
+                                                <h6 class="Expert">Domain Expert</h6>
+                                                <p>San Francisco, California, United States</p>
+                                             </div>
+                                             <div class="col-md-3">
+                                                <button class="mt-3 approve_button">Approve</button>
+                                             </div>
+                                          </div>
+                                          <div class="row mt-2">
+                                             <div class="col-md-2 profile_image">
+                                                <img src="assets/Images/pro_pic2.jpeg"/>
+                                             </div>
+                                             <div class="col-md-7">
+                                                <h6 class="candidate_name">Christina</h6>
+                                                <h6 class="Expert">Software Developer</h6>
+                                                <p>India</p>
+                                             </div>
+                                             <div class="col-md-3">
+                                                <button class="mt-3 approve_button">Approve</button>
+                                             </div>
+                                          </div>
+                                          <div class="row mt-2">
+                                             <div class="col-md-2 profile_image">
+                                                <img class="img-fluid" src="assets/Images/pro_pic_3.jpeg"/>
+                                             </div>
+                                             <div class="col-md-7">
+                                                <h6 class="candidate_name">Mohammed Azad</h6>
+                                                <h6 class="Expert">Azure Product Developer</h6>
+                                                <p>Ireland</p>
+                                             </div>
+                                             <div class="col-md-3">
+                                                <button class="mt-3 approve_button">Approve</button>
+                                             </div>
+                                          </div>
+                                          <div class="row mt-2">
+                                             <div class="col-md-2 profile_image">
+                                                <img src="assets/Images/profile.jpg"/>
+                                             </div>
+                                             <div class="col-md-7">
+                                                <h6 class="candidate_name">Christina</h6>
+                                                <h6 class="Expert">Software Developer</h6>
+                                                <p>India</p>
+                                             </div>
+                                             <div class="col-md-3">
+                                                <button class="mt-3 approve_button">Approve</button>
+                                             </div>
+                                          </div>
+                                          <div class="row mt-2">
+                                             <div class="col-md-2 profile_image">
+                                                <img class="imd-fluid" src="assets/Images/pro_pic_3.jpeg"/>
+                                             </div>
+                                             <div class="col-md-7">
+                                                <h6 class="candidate_name">Mohammed Azad</h6>
+                                                <h6 class="Expert">Azure Product Developer</h6>
+                                                <p>Ireland</p>
+                                             </div>
+                                             <div class="col-md-3">
+                                                <button class="mt-3 approve_button">Approve</button>
+                                             </div>
+                                          </div>
+                                          <div class="row mt-2">
+                                             <div class="col-md-2 profile_image">
+                                                <img src="assets/Images/profile.jpg"/>
+                                             </div>
+                                             <div class="col-md-7">
+                                                <h6 class="candidate_name">Christina</h6>
+                                                <h6 class="Expert">Software Developer</h6>
+                                                <p>India</p>
+                                             </div>
+                                             <div class="col-md-3">
+                                                <button class="mt-3 approve_button">Approve</button>
+                                             </div>
+                                          </div>
+                                          <div class="row mt-2">
+                                             <div class="col-md-2 profile_image">
+                                                <img src="assets/Images/profile.jpg"/>
+                                             </div>
+                                             <div class="col-md-7">
+                                                <h6 class="candidate_name">Mohammed Azad</h6>
+                                                <h6 class="Expert">Azure Product Developer</h6>
+                                                <p>Ireland</p>
+                                             </div>
+                                             <div class="col-md-3">
+                                                <button class="mt-3 approve_button">Approve</button>
+                                             </div>
+                                          </div>
+                                          <div class="row mt-2">
+                                             <div class="col-md-2 profile_image">
+                                                <img src="assets/Images/profile.jpg"/>
+                                             </div>
+                                             <div class="col-md-7">
+                                                <h6 class="candidate_name">Christina</h6>
+                                                <h6 class="Expert">Software Developer</h6>
+                                                <p>India</p>
+                                             </div>
+                                             <div class="col-md-3">
+                                                <button class="mt-3 approve_button">Approve</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="modal-footer">
+                                          <button type="button" class="close_button" data-dismiss="modal">CLOSE</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                     </div>
+                  </div>
+               </div>
+         </div>
+         </section>
+      </div>
+   </body>
+</html>
